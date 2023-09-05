@@ -24,3 +24,14 @@ body {
 .bg-color {
   background-color: #d3d3d3;
 }
+
+.bg-color2 {
+  background: #ec5242;
+}
+
+@media (min-width: 768px) {
+  .alerts-input {
+    width: 50%;
+
+  }
+}
