@@ -9,7 +9,7 @@ body {
   height: 5%;
 }
 
-.logo-text {
+.text {
   color: #272a31;
 }
 
@@ -19,4 +19,8 @@ body {
 
 .nav-text:hover {
   color: #ec5242;
+}
+
+.bg-color {
+  background-color: #d3d3d3;
 }
