@@ -29,9 +29,16 @@ body {
   background: #ec5242;
 }
 
+.c-item {
+  height: auto;
+}
+
+.c-img {
+  object-fit: contain;
+}
+
 @media (min-width: 768px) {
   .alerts-input {
     width: 50%;
-
   }
 }
