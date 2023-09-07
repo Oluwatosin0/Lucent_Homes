@@ -51,7 +51,8 @@
                     <h1>Welcome to your <span class="text-danger">Dream Home</span></h1>
                     <p class="lead my-4">Are you ready to step into a world of unparalleled luxury and comfort? 
                         Look no further, because your dream home awaits!</p>
-                        <button class="btn btn-danger btn-lg mt-3">View Virtual Tour</button>
+                        <button class="btn btn-danger btn-lg mt-3"
+                        data-bs-toggle="modal" data-bs-target="#view">View Virtual Tour</button>
                 </div>
                 <img src="./assets/images/Home.png" class="img-fluid d-none d-md-block" alt="home">
             </div>
@@ -400,7 +401,7 @@
     <section id="contact" class="p-5">
         <div class="container">
             <div class="row g-4">
-                <div class="col-md">
+                <div class="col-md align-items-center justify-content-between">
                     <h2 class="text-center mb-4">Contact Info</h2>
                     <ul class="lead list-group list-group-flush">
                         <li class="list-group-item">
@@ -436,6 +437,43 @@
             </a>
         </div>
     </footer>
+
+    <!-- Modal -->
+<div class="modal fade" id="view" tabindex="-1" aria-labelledby="viewLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h1 class="modal-title fs-5" id="view"> Virtual Tour</h1>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p class="lead">Fill out this form and we will get back to you</p>
+          <form>
+            <div class="mb-3">
+                <label for="first-name" class="col-form-label">First Name:</label>
+                <input type="text" class="form-control" id="first-name">
+            </div>
+            <div class="mb-3">
+                <label for="last-name" class="col-form-label">Last Name:</label>
+                <input type="text" class="form-control" id="last-name">
+            </div>
+            <div class="mb-3">
+                <label for="phone" class="col-form-label">Phone:</label>
+                <input type="text" class="form-control" id="phone">
+            </div>
+            <div class="mb-3">
+                <label for="mail" class="col-form-label">Email:</label>
+                <input type="text" class="form-control" id="mail">
+            </div>
+          </form>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-danger">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
    
