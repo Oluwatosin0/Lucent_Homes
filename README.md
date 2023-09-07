@@ -30,7 +30,7 @@ Lucent_Homes is a capstone project that is instigated to solve real-world proble
 -GIT
 
 # Hosting Platform
--Github (                 )
+-Github (https://oluwatosin0.github.io/Lucent_Homes/)
 
 
 -Netlify (                             )
