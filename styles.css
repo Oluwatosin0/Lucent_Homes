@@ -4,6 +4,12 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+body::before {
+  display: block;
+  content: '';
+  height: 60px;
+}
+
 .logo {
   width: 5%;
   height: 5%;
