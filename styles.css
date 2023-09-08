@@ -58,7 +58,7 @@ body::before {
 
 @media (max-width: 768px) {
   #map {
-    width: fit-content;
+    width: 70%;
     margin: 0 auto;
   }
 }
